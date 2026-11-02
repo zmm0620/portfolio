@@ -1,0 +1,10 @@
+{
+  "name": "zhumanman-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "check": "node --check app.js && node --check portfolio-data.js && node check.mjs"
+  }
+}
